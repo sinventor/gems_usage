@@ -58,6 +58,9 @@ a.get('http://vk.com/') do |page|
     end
 
     upload_form.file_uploads.each do |file_upl|
+      File.open("./mechanize/research/tmp/vk/file_upl.html", "w") do |file|
+        file.write(file_upl.node)
+      end unless File.exists?("./mechanize/research/tmp/vk/file_upl.html")
       file_upl.file_name = images_for_upload[rand(images_for_upload.size)]
     end
   end.submit
