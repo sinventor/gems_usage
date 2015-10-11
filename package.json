@@ -1,0 +1,28 @@
+{
+  "name": "gems_usage",
+  "version": "0.0.1",
+  "description": "Examples and practices for some gems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sinventor/gems_usage.git"
+  },
+  "keywords": [
+    "gems",
+    "practices",
+    "parser",
+    "console-output"
+  ],
+  "author": "Rushan Alyautdinov <rushan_oline@mail.ru>",
+  "license": "MIT",
+  "gitHead": "e192c9553fda00708694724e291defd9b21acceb",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "gulp-prettify": "~0.3.0",
+    "gulp": "~3.9.0",
+    "gulp-html-prettify": "0.0.1"
+  }
+}
